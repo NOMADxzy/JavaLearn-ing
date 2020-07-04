@@ -2,6 +2,7 @@ package Stack;
 
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class check_bracket {
     private static HashMap<Character,Character> brackets = new HashMap<>();
