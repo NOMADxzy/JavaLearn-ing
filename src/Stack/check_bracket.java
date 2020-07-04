@@ -41,7 +41,7 @@ public class check_bracket {
         initBrackets();
         String s;
         Scanner in = new Scanner(System.in);
-        System.out.println("请输入表达式：");
+        System.out.println("请输入数学表达式：");
         s = in.nextLine();
         System.out.println(check(s));
     }
