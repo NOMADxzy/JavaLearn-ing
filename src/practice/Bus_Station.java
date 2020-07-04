@@ -64,6 +64,6 @@ public class Bus_Station {
         }
         int price = getPrice(start_station,end_station);
         int time = Math.abs(getIndex(start_station)-getIndex(end_station))*2;
-        System.out.println("从"+start_station+"到"+end_station+"大约需要"+time+"分钟，收费"+price+"元");
+        System.out.println("从"+start_station+"到"+end_station+"大约需要"+time+"分钟，收费"+price+"元,祝您旅途愉快");//TODO
     }
 }

@@ -7,7 +7,7 @@ public class HashMap_test {
     public static void main(String[] args) {
         HashMap<Character,Integer> numbersofeachchar = new HashMap<>();
         Scanner in = new Scanner(System.in);
-        System.out.println("请输入字符串");
+        System.out.println("请输入字符串:");
         String s = in.nextLine();
         for(Character c : s.toCharArray()){
             if(numbersofeachchar.containsKey(c))
