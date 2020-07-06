@@ -14,7 +14,7 @@ public class FileReader_FileWrite {
         else {
             file_folder.mkdir();
         }
-        File file1 = new File("C:\\JAVA\\test\\src\\File\\folder\\file_test");
+        File file1 = new File("C:\\JAVA\\test\\src\\File\\folder\\file_test.txt");
         if(file1.exists()){
             System.out.println("文件已存在.");
         }
